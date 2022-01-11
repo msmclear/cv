@@ -13,7 +13,8 @@ datadrivencv::use_datadriven_cv(
   full_name = "Monique McLeary",
   data_location = "https://docs.google.com/spreadsheets/d/1ZhAxUTsF_zYRE3JSdkYJM-ge96p5HBRmZ9gTxdgbSw0",
   pdf_location = "https://github.com/msmclear/cv/raw/master/mcleary_cv.pdf",
-  source_location = "https://github.com/msmclear/cv"
+  source_location = "https://github.com/msmclear/cv",
+  html_location = "moniquesmcleary.com/cv/"
 )
 
 
