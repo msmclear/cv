@@ -91,8 +91,8 @@ print_section <- function(position_data, section_id){
 build_skill_bars <- function(skills, out_of = 5){
   bar_color <- "#969696"
   bar_background <- "#d9d9d9"
-  skills %>% 
-    mutate(width_percent = round(100*level/out_of)) %>% 
+  skills %>%
+    mutate(width_percent = round(100*level/out_of)) %>%
     glue_data(
       "<div class = 'skill-bar'",
       "style = \"background:linear-gradient(to right,",
@@ -102,6 +102,8 @@ build_skill_bars <- function(skills, out_of = 5){
       "</div>"
     )
 }
+
+
 
 #' @description Prints out text block identified by a given label.
 #' @param label ID of the text block to print as encoded in `label` column of `text_blocks` table.
