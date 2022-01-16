@@ -14,7 +14,7 @@ datadrivencv::use_datadriven_cv(
   data_location = "https://docs.google.com/spreadsheets/d/1-P5vJo9HAmXaL8MjbSGt1dHHSVq0JLBfHvV7iFY8ZAM",
   pdf_location = "https://github.com/msmclear/cv/raw/master/mcleary_cv.pdf",
   source_location = "https://github.com/msmclear/cv",
-  html_location = "moniquesmcleary.com/cv/"
+  html_location = "https://msmclear.github.io/cv-2/"
 )
 
 
